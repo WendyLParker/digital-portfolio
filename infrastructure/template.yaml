@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Contact Form Backend for Alafour.com
+
+Parameters:
+  ToEmail:
+    Type: String
+    Default: "your-email@example.com"
+
+Resources:
+  ContactFormFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: lambda/
+      Handler: index.handler
+      Runtime: nodejs20.x
+      Timeout: 30
+      MemorySize: 128
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - Statement:
+            Effect: Allow
+            Action:
+              - ses:SendEmail
+              - ses:SendRawEmail
+            Resource: "*"
+      Environment:
+        Variables:
+          TO_EMAIL: !Ref ToEmail
+          FROM_EMAIL: !Ref ToEmail
+
+  ContactFormApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      Cors:
+        AllowOrigin: "'*'"
+        AllowHeaders: "'Content-Type'"
+        AllowMethods: "'POST, OPTIONS'"
+
+Outputs:
+  ApiEndpoint:
+    Description: "Contact Form API Endpoint"
+    Value: !Sub "https://${ContactFormApi}.execute-api.${AWS::Region}.amazonaws.com/prod/contact"

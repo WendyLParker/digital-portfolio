@@ -1,4 +1,5 @@
 import { Mail } from 'lucide-react';
+import ContactForm from './components/ContactForm'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       </nav>
 
       {/* Hero */}
-      <section className="min-h-screen flex items-center pt-20 bg-gradient-to-br from-gray-900 to-black text-white">
+      <section id="home" className="min-h-screen flex items-center pt-20 bg-gradient-to-br from-gray-900 to-black text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h1 className="text-6xl md:text-7xl font-bold mb-6">Alafour LLC</h1>
           <p className="text-3xl text-sky-400 mb-6">
@@ -165,11 +166,26 @@ function App() {
       </section>
 
       {/* Contact */}
-      <footer id="contact" className="bg-gray-900 text-white py-16 text-center">
-        <p className="text-2xl mb-6">Let's Connect</p>
-        <div className="flex justify-center gap-8">
-          <a href="mailto:wendy44parker@gmail.com"><Mail size={32} /></a>
-          <a href="https://www.linkedin.com/in/wendyparker09" target="_blank" className="text-3xl">in</a>
+      <footer id="contact" className="bg-gray-900 text-white py-20">
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          <p className="text-3xl font-semibold mb-4">Let's Connect</p>
+          <p className="text-gray-400 mb-10">
+            Ready to discuss your project? Send us a message and we'll get back to you within 1-2 business days.
+          </p>
+
+          <ContactForm />
+        </div>
+
+        {/* Optional LinkedIn link */}
+        <div className="text-center mt-12 text-gray-500">
+          Or connect with us on{' '}
+          <a
+            href="https://www.linkedin.com/in/wendyparker09"
+            target="_blank"
+            className="text-sky-400 hover:text-sky-300 underline"
+          >
+            LinkedIn
+          </a>
         </div>
       </footer>
     </div>
