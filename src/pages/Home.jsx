@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Home() {
   return (
     <>
@@ -12,18 +14,19 @@ function Home() {
             20+ Years • .NET • React • AWS • Secure Cloud Solutions
           </p>
           <div className="flex gap-4 justify-center">
-            <a 
-              href="/experience" 
+            <Link
+              to="/experience"
               className="px-8 py-4 bg-sky-600 hover:bg-sky-500 rounded-2xl font-semibold transition-all"
             >
               See Past Performance
-            </a>
-            <a 
-              href="/contact" 
+            </Link>
+
+            <Link
+              to="/contact"
               className="px-8 py-4 border border-white/50 hover:bg-white/10 rounded-2xl font-semibold transition-all"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -33,15 +36,15 @@ function Home() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">About Alafour LLC</h2>
           <p className="text-xl leading-relaxed text-gray-600 dark:text-gray-400">
-            We specialize in building reliable, secure, and scalable software solutions 
+            We specialize in building reliable, secure, and scalable software solutions
             for government agencies and enterprise clients with over 20 years of experience.
           </p>
-          <a 
-            href="/about" 
+          <Link
+            to="/about"
             className="inline-block mt-8 text-sky-600 hover:text-sky-500 font-medium text-lg"
           >
             Learn more about us →
-          </a>
+          </Link>
         </div>
       </section>
     </>
