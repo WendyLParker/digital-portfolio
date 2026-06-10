@@ -4,27 +4,21 @@ function Home() {
   return (
     <>
       {/* Hero Section - Full screen and prominent */}
-      <section className="min-h-screen flex items-center pt-20 bg-gradient-to-br from-gray-900 to-black text-white">
+      <section className="min-h-screen flex items-center pt-20 bg-[#0F172A] text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h1 className="text-6xl md:text-7xl font-bold mb-6">Alafour LLC</h1>
-          <p className="text-3xl text-sky-400 mb-6">
+          <p className="text-3xl text-teal-400 mb-6">
             Reliable Software Solutions for Government and Enterprise
           </p>
-          <p className="text-xl max-w-2xl mx-auto text-gray-400 mb-10">
+          <p className="text-xl max-w-2xl mx-auto text-slate-400 mb-10">
             20+ Years • .NET • React • AWS • Secure Cloud Solutions
           </p>
+
           <div className="flex gap-4 justify-center">
-            <Link
-              to="/experience"
-              className="px-8 py-4 bg-sky-600 hover:bg-sky-500 rounded-2xl font-semibold transition-all"
-            >
+            <Link to="/experience" className="px-8 py-4 bg-teal-600 hover:bg-teal-700 rounded-2xl font-semibold transition-all">
               See Past Performance
             </Link>
-
-            <Link
-              to="/contact"
-              className="px-8 py-4 border border-white/50 hover:bg-white/10 rounded-2xl font-semibold transition-all"
-            >
+            <Link to="/contact" className="px-8 py-4 border border-white/50 hover:bg-white/10 rounded-2xl font-semibold transition-all">
               Contact Us
             </Link>
           </div>
