@@ -1,3 +1,12 @@
+import { Routes, Route } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Services from './pages/Services';
+import Experience from './pages/Experience';
+import Contact from './pages/Contact';
+
 function App() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100">
@@ -14,4 +23,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
