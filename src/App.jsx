@@ -6,10 +6,13 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100">
+      <ScrollToTop />
       <Navbar />
       
       <Routes>
@@ -19,6 +22,8 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }
