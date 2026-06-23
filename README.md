@@ -1,16 +1,44 @@
-# React + Vite
+# Alafour LLC - Digital Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Woman-Owned Small Business**  
+Custom Software Development • Modernization • Maintenance & Support
 
-Currently, two official plugins are available:
+### About Alafour LLC
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Alafour LLC is a Woman-Owned Small Business founded in 2026 by Wendy Parker, a full-stack developer with over **20 years** of enterprise experience.
 
-## React Compiler
+We specialize in building reliable, secure, and scalable software solutions using modern technologies — particularly **.NET/C#**, **React**, and **AWS serverless architectures**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### Current Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **This Website** — Company portfolio and marketing site (React + Tailwind + AWS)
+- **FaithFlow** — AI-powered full-stack application integrating Grok AI for personalized scriptural content (React + .NET + AWS)
+
+---
+
+### Technical Expertise
+
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Backend**: .NET / C#, ASP.NET Web API, Entity Framework
+- **Cloud**: AWS (Lambda, API Gateway, DynamoDB, S3, CloudFront, SES)
+- **Other**: System modernization, data migrations, integrations, Agile/Scrum
+
+---
+
+### Deployment
+
+This site is hosted on **AWS** using S3 + CloudFront (serverless static hosting).
+
+---
+
+### Connect With Us
+
+- Website: [alafour.com](https://alafour.com)
+- LinkedIn: [Wendy Parker](https://www.linkedin.com/in/wendyparker09)
+- Email: wendy44parker@gmail.com
+
+---
+
+**Alafour LLC** — Delivering high-quality software solutions with personal accountability and technical excellence.
