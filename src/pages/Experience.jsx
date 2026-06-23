@@ -1,79 +1,117 @@
 function Experience() {
   return (
-    <div className="pt-20 bg-gray-100 dark:bg-gray-950 min-h-screen">
+    <div className="pt-20 bg-white dark:bg-gray-900 min-h-screen">
       <section className="py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Relevant Experience</h2>
-            <p className="text-gray-600 dark:text-gray-400">
-              Key Personnel Past Performance & Leadership Highlights
-            </p>
-            <p className="text-sm text-gray-500 mt-3">
-              Projects delivered by Alafour LLC founder prior to company formation
+          
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold mb-4">Selected Projects & Experience</h2>
+            <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+              Highlights from 20+ years of enterprise software development, modernization, and delivery
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
-            {/* Card 1 - Enterprise Modernization */}
-            <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2">
-              <div className="h-52 bg-gradient-to-br from-sky-600 to-indigo-600 flex items-center justify-center text-white text-5xl font-bold">Modernization</div>
+
+            {/* 1 */}
+            <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
+              <div className="h-52 bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white text-6xl">🌐</div>
               <div className="p-8">
-                <h3 className="text-2xl font-semibold mb-3">Enterprise Modernization</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-6 line-clamp-4">
-                  Led migration of legacy systems to modern architecture, improving performance by ~40% 
-                  and increasing developer velocity. Implemented microservices using .NET 8, RabbitMQ, and AWS.
+                <h3 className="text-2xl font-semibold mb-3">MVC to React SPA Modernization</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
+                  Modernized legacy ASP.NET MVC applications into modern React single-page applications 
+                  with clean .NET API backends, significantly improving user experience and maintainability.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">.NET 8</span>
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">React</span>
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">RabbitMQ</span>
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">AWS</span>
+                  <span className="text-xs px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full">React</span>
+                  <span className="text-xs px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full">.NET 8</span>
+                  <span className="text-xs px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full">REST APIs</span>
                 </div>
-                <a href="#" className="block text-center py-3 bg-sky-600 text-white rounded-2xl font-medium hover:bg-sky-700 transition">
-                  View Details →
-                </a>
               </div>
             </div>
 
-            {/* Card 2 - API Integration */}
-            <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2">
-              <div className="h-52 bg-gradient-to-br from-emerald-600 to-teal-600 flex items-center justify-center text-white text-5xl font-bold">API</div>
+            {/* 2 */}
+            <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
+              <div className="h-52 bg-gradient-to-br from-emerald-600 to-teal-700 flex items-center justify-center text-white text-6xl">⚙️</div>
               <div className="p-8">
-                <h3 className="text-2xl font-semibold mb-3">API Integration Platform</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-6 line-clamp-4">
-                  Designed and developed secure enterprise REST APIs with OAuth2 / JWT authentication 
-                  serving 50k+ daily users. Reduced API response time by 55% through optimization.
+                <h3 className="text-2xl font-semibold mb-3">.NET Framework to .NET 8 Migration</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
+                  Executed large-scale migration of legacy .NET Framework applications to .NET 8, 
+                  improving performance, security, and long-term maintainability.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">C#</span>
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">ASP.NET</span>
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">SQL Server</span>
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">OAuth/JWT</span>
+                  <span className="text-xs px-3 py-1 bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300 rounded-full">.NET 8</span>
+                  <span className="text-xs px-3 py-1 bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300 rounded-full">C#</span>
+                  <span className="text-xs px-3 py-1 bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300 rounded-full">Migration</span>
                 </div>
-                <a href="#" className="block text-center py-3 bg-sky-600 text-white rounded-2xl font-medium hover:bg-sky-700 transition">
-                  View Details →
-                </a>
               </div>
             </div>
 
-            {/* Card 3 - AI Implementation */}
-            <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2">
-              <div className="h-52 bg-gradient-to-br from-violet-600 to-purple-600 flex items-center justify-center text-white text-5xl font-bold">AI</div>
+            {/* 3 */}
+            <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
+              <div className="h-52 bg-gradient-to-br from-violet-600 to-purple-700 flex items-center justify-center text-white text-6xl">🔀</div>
               <div className="p-8">
-                <h3 className="text-2xl font-semibold mb-3">AI Implementation</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-6 line-clamp-4">
-                  Integrated AWS AI services and built internal productivity tools. 
-                  Delivered AI-enhanced solutions that improved team efficiency.
+                <h3 className="text-2xl font-semibold mb-3">Monolith to Microservices</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
+                  Decomposed monolithic applications into microservices architecture, 
+                  improving scalability, deployment speed, and team autonomy.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">AWS AI</span>
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">.NET</span>
-                  <span className="text-xs px-3 py-1 bg-sky-100 dark:bg-sky-900 text-sky-700 dark:text-sky-300 rounded-full">GitHub Copilot</span>
+                  <span className="text-xs px-3 py-1 bg-violet-100 dark:bg-violet-900 text-violet-700 dark:text-violet-300 rounded-full">Microservices</span>
+                  <span className="text-xs px-3 py-1 bg-violet-100 dark:bg-violet-900 text-violet-700 dark:text-violet-300 rounded-full">.NET</span>
+                  <span className="text-xs px-3 py-1 bg-violet-100 dark:bg-violet-900 text-violet-700 dark:text-violet-300 rounded-full">RabbitMQ</span>
                 </div>
-                <a href="#" className="block text-center py-3 bg-sky-600 text-white rounded-2xl font-medium hover:bg-sky-700 transition">
-                  View Details →
-                </a>
+              </div>
+            </div>
+
+            {/* 4 */}
+            <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
+              <div className="h-52 bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center text-white text-6xl">☁️</div>
+              <div className="p-8">
+                <h3 className="text-2xl font-semibold mb-3">On-Prem to AWS Cloud Migration</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
+                  Migrated on-premises applications and databases to AWS using serverless technologies 
+                  and managed services for better scalability and cost efficiency.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="text-xs px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-700 dark:text-orange-300 rounded-full">AWS</span>
+                  <span className="text-xs px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-700 dark:text-orange-300 rounded-full">Lambda</span>
+                  <span className="text-xs px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-700 dark:text-orange-300 rounded-full">DynamoDB</span>
+                </div>
+              </div>
+            </div>
+
+            {/* 5 */}
+            <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
+              <div className="h-52 bg-gradient-to-br from-cyan-600 to-teal-600 flex items-center justify-center text-white text-6xl">🔌</div>
+              <div className="p-8">
+                <h3 className="text-2xl font-semibold mb-3">Enterprise API Development</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
+                  Designed and built secure, high-performance RESTful API platforms with OAuth2/JWT authentication 
+                  supporting thousands of daily users.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="text-xs px-3 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-700 dark:text-cyan-300 rounded-full">.NET</span>
+                  <span className="text-xs px-3 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-700 dark:text-cyan-300 rounded-full">API Gateway</span>
+                  <span className="text-xs px-3 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-700 dark:text-cyan-300 rounded-full">OAuth2</span>
+                </div>
+              </div>
+            </div>
+
+            {/* 6 */}
+            <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
+              <div className="h-52 bg-gradient-to-br from-fuchsia-600 to-pink-600 flex items-center justify-center text-white text-6xl">🤖</div>
+              <div className="p-8">
+                <h3 className="text-2xl font-semibold mb-3">AI Integration & Intelligent Applications</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
+                  Integrated large language models (including Grok AI) into full-stack applications 
+                  to enable intelligent content generation and personalized user experiences.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="text-xs px-3 py-1 bg-fuchsia-100 dark:bg-fuchsia-900 text-fuchsia-700 dark:text-fuchsia-300 rounded-full">React</span>
+                  <span className="text-xs px-3 py-1 bg-fuchsia-100 dark:bg-fuchsia-900 text-fuchsia-700 dark:text-fuchsia-300 rounded-full">.NET</span>
+                  <span className="text-xs px-3 py-1 bg-fuchsia-100 dark:bg-fuchsia-900 text-fuchsia-700 dark:text-fuchsia-300 rounded-full">Grok AI</span>
+                </div>
               </div>
             </div>
 
