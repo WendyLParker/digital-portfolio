@@ -9,7 +9,7 @@ function Home() {
           <h1 className="text-6xl md:text-7xl font-bold mb-4 tracking-tight">
             Alafour LLC
           </h1>
-          
+
           <p className="text-teal-400 text-2xl md:text-3xl mb-3">
             Woman-Owned Small Business
           </p>
@@ -39,21 +39,24 @@ function Home() {
         </div>
       </section>
 
-      {/* Short About Teaser */}
+      {/* Strong Teaser Section */}
       <section className="py-20 bg-slate-50 dark:bg-slate-900">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6 text-slate-800 dark:text-slate-100">
-            About Alafour LLC
+            Why Choose Alafour LLC?
           </h2>
+
           <p className="text-xl leading-relaxed text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            We deliver secure, scalable, and reliable software solutions for government 
-            and enterprise clients. Specializing in .NET, React, and AWS cloud-native development.
+            With over 20 years of enterprise experience and a Woman-Owned Small Business structure,
+            I deliver reliable .NET, React, and AWS solutions with the attention to detail
+            and personal accountability that only comes from owning the work myself.
           </p>
+
           <Link
             to="/about"
             className="inline-block mt-10 text-teal-600 hover:text-teal-700 font-medium text-lg"
           >
-            Learn more about us →
+            Learn more about my background and approach →
           </Link>
         </div>
       </section>
