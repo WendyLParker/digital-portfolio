@@ -3,37 +3,66 @@ function Services() {
     <div className="pt-20 bg-white dark:bg-gray-900 min-h-screen">
       <section className="py-24">
         <div className="max-w-5xl mx-auto px-6">
+          
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Our Services</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Reliable software development and modernization solutions for government agencies and enterprise clients.
+            <h2 className="text-5xl font-bold mb-6">Our Services</h2>
+            <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+              Specialized .NET, React, and AWS solutions delivered with 20+ years of enterprise experience.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-10">
 
-            {/* Service Card 1 */}
-            <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-3xl">
-              <h3 className="text-2xl font-semibold mb-3">Custom Software Development</h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                Full-stack development using .NET, React, TypeScript, and modern cloud technologies.
+            <div className="bg-slate-50 dark:bg-slate-800 p-10 rounded-3xl">
+              <h3 className="text-2xl font-semibold mb-6 text-teal-600">Custom Software Development</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-8">
+                Full-stack application development tailored to your needs. From concept to production, I build secure, scalable, and maintainable systems.
               </p>
+              <ul className="space-y-3 text-slate-600 dark:text-slate-400">
+                <li>• .NET / C# backend development</li>
+                <li>• React & TypeScript frontends</li>
+                <li>• RESTful APIs and system integrations</li>
+                <li>• Database design and optimization</li>
+              </ul>
             </div>
 
-            {/* Service Card 2 */}
-            <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-3xl">
-              <h3 className="text-2xl font-semibold mb-3">Legacy System Modernization</h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                Migrate and modernize existing systems with minimal disruption and maximum value.
+            <div className="bg-slate-50 dark:bg-slate-800 p-10 rounded-3xl">
+              <h3 className="text-2xl font-semibold mb-6 text-teal-600">Legacy System Modernization</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-8">
+                Transform outdated systems into modern, supportable platforms while minimizing risk and downtime.
               </p>
+              <ul className="space-y-3 text-slate-600 dark:text-slate-400">
+                <li>• .NET Framework → .NET 8 migration</li>
+                <li>• Monolith to microservices</li>
+                <li>• Cloud migration (AWS)</li>
+                <li>• Technical debt reduction</li>
+              </ul>
             </div>
 
-            {/* Service Card 3 */}
-            <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-3xl">
-              <h3 className="text-2xl font-semibold mb-3">Cloud & DevOps Solutions</h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                AWS cloud architecture, CI/CD pipelines, infrastructure as code, and scalable solutions.
+            <div className="bg-slate-50 dark:bg-slate-800 p-10 rounded-3xl">
+              <h3 className="text-2xl font-semibold mb-6 text-teal-600">Application Maintenance & Support</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-8">
+                Ongoing support, enhancements, and troubleshooting for existing applications.
               </p>
+              <ul className="space-y-3 text-slate-600 dark:text-slate-400">
+                <li>• Bug fixes and performance tuning</li>
+                <li>• Security updates</li>
+                <li>• Feature enhancements</li>
+                <li>• Long-term application stewardship</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-50 dark:bg-slate-800 p-10 rounded-3xl">
+              <h3 className="text-2xl font-semibold mb-6 text-teal-600">AWS Cloud & Serverless Solutions</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-8">
+                Cost-effective, scalable cloud-native architectures on AWS.
+              </p>
+              <ul className="space-y-3 text-slate-600 dark:text-slate-400">
+                <li>• Lambda + API Gateway solutions</li>
+                <li>• DynamoDB and data architecture</li>
+                <li>• Infrastructure as Code</li>
+                <li>• Monitoring and alerting</li>
+              </ul>
             </div>
 
           </div>
