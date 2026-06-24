@@ -15,7 +15,7 @@ function About() {
 
             <p>
               My background includes enterprise application development, system modernization, 
-              AWS serverless architectures, and large-scale data migrations — most recently at Paylocity.
+              AWS serverless architectures, and large-scale data migrations.
             </p>
 
             <p>
