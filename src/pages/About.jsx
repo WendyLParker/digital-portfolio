@@ -24,7 +24,7 @@ function About() {
               with the personal accountability that comes from owning the business.
             </p>
 
-            <p className="font-medium text-teal-600">
+            <p className="font-medium text-primary-600">
               Currently developing <strong>RequestFlow</strong> — an AI-powered full-stack application 
               built with React, .NET, and AI integration.
             </p>

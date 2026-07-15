@@ -50,7 +50,7 @@ const ContactForm = () => {
           <input
             type="text"
             {...register('name', { required: 'Name is required' })}
-            className="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-600 rounded-2xl px-5 py-4 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-teal-500 transition"
+            className="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-600 rounded-2xl px-5 py-4 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-primary-500 transition"
             placeholder="John Doe"
           />
           {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>}
@@ -69,7 +69,7 @@ const ContactForm = () => {
                 message: 'Please enter a valid email',
               },
             })}
-            className="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-600 rounded-2xl px-5 py-4 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-teal-500 transition"
+            className="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-600 rounded-2xl px-5 py-4 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-primary-500 transition"
             placeholder="you@company.com"
           />
           {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>}
@@ -86,7 +86,7 @@ const ContactForm = () => {
             minLength: { value: 20, message: 'Message should be at least 20 characters long' },
           })}
           rows="6"
-          className="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-600 rounded-3xl px-5 py-4 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-teal-500 transition resize-y"
+          className="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-600 rounded-3xl px-5 py-4 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-primary-500 transition resize-y"
           placeholder="Tell us about your project or how we can help..."
         />
         {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>}
@@ -95,7 +95,7 @@ const ContactForm = () => {
       <button
         type="submit"
         disabled={loading}
-        className="w-full bg-teal-600 hover:bg-teal-700 disabled:bg-slate-400 disabled:cursor-not-allowed transition py-4 rounded-2xl font-semibold text-lg mt-4 flex items-center justify-center text-white"
+        className="w-full bg-primary-600 hover:bg-primary-700 disabled:bg-slate-400 disabled:cursor-not-allowed transition py-4 rounded-2xl font-semibold text-lg mt-4 flex items-center justify-center text-white"
       >
         {loading ? 'Sending Message...' : 'Send Message'}
       </button>

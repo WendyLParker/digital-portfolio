@@ -15,7 +15,7 @@ function Experience() {
 
             {/* 1 */}
             <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
-              <div className="h-52 bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white text-6xl">🌐</div>
+              <div className="h-52 bg-navy-500 flex items-center justify-center text-white text-6xl">🌐</div>
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-3">MVC to React SPA Modernization</h3>
                 <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
@@ -32,7 +32,7 @@ function Experience() {
 
             {/* 2 */}
             <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
-              <div className="h-52 bg-gradient-to-br from-emerald-600 to-teal-700 flex items-center justify-center text-white text-6xl">⚙️</div>
+              <div className="h-52 bg-navy-500 flex items-center justify-center text-white text-6xl">⚙️</div>
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-3">.NET Framework to .NET 8 Migration</h3>
                 <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
@@ -49,7 +49,7 @@ function Experience() {
 
             {/* 3 */}
             <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
-              <div className="h-52 bg-gradient-to-br from-violet-600 to-purple-700 flex items-center justify-center text-white text-6xl">🔀</div>
+              <div className="h-52 bg-navy-500 flex items-center justify-center text-white text-6xl">🔀</div>
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-3">Monolith to Microservices</h3>
                 <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
@@ -66,7 +66,7 @@ function Experience() {
 
             {/* 4 */}
             <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
-              <div className="h-52 bg-gradient-to-br from-orange-500 to-amber-600 flex items-center justify-center text-white text-6xl">☁️</div>
+              <div className="h-52 bg-navy-500 flex items-center justify-center text-white text-6xl">☁️</div>
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-3">On-Prem to AWS Cloud Migration</h3>
                 <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
@@ -83,7 +83,7 @@ function Experience() {
 
             {/* 5 */}
             <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
-              <div className="h-52 bg-gradient-to-br from-cyan-600 to-teal-600 flex items-center justify-center text-white text-6xl">🔌</div>
+              <div className="h-52 bg-navy-500 flex items-center justify-center text-white text-6xl">🔌</div>
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-3">Enterprise API Development</h3>
                 <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
@@ -100,7 +100,7 @@ function Experience() {
 
             {/* 6 */}
             <div className="bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 border border-slate-100 dark:border-slate-700">
-              <div className="h-52 bg-gradient-to-br from-fuchsia-600 to-pink-600 flex items-center justify-center text-white text-6xl">🤖</div>
+              <div className="h-52 bg-navy-500 flex items-center justify-center text-white text-6xl">🤖</div>
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-3">AI Integration & Intelligent Applications</h3>
                 <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
