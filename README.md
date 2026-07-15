@@ -14,7 +14,7 @@ We specialize in building reliable, secure, and scalable software solutions usin
 ### Current Projects
 
 - **This Website** — Company portfolio and marketing site (React + Tailwind + AWS)
-- **FaithFlow** — AI-powered full-stack application integrating Grok AI for personalized scriptural content (React + .NET + AWS)
+- **FaithFlow** — AI-powered full-stack application integrating AI for personalized scriptural content (React + .NET + AWS)
 
 ---
 

@@ -104,13 +104,13 @@ function Experience() {
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-3">AI Integration & Intelligent Applications</h3>
                 <p className="text-slate-600 dark:text-slate-400 mb-6 line-clamp-4">
-                  Integrated large language models (including Grok AI) into full-stack applications 
+                  Integrated large language models (including AI) into full-stack applications 
                   to enable intelligent content generation and personalized user experiences.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   <span className="text-xs px-3 py-1 bg-fuchsia-100 dark:bg-fuchsia-900 text-fuchsia-700 dark:text-fuchsia-300 rounded-full">React</span>
                   <span className="text-xs px-3 py-1 bg-fuchsia-100 dark:bg-fuchsia-900 text-fuchsia-700 dark:text-fuchsia-300 rounded-full">.NET</span>
-                  <span className="text-xs px-3 py-1 bg-fuchsia-100 dark:bg-fuchsia-900 text-fuchsia-700 dark:text-fuchsia-300 rounded-full">Grok AI</span>
+                  <span className="text-xs px-3 py-1 bg-fuchsia-100 dark:bg-fuchsia-900 text-fuchsia-700 dark:text-fuchsia-300 rounded-full">AI</span>
                 </div>
               </div>
             </div>
