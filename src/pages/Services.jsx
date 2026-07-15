@@ -14,7 +14,7 @@ function Services() {
           <div className="grid md:grid-cols-2 gap-10">
 
             <div className="bg-slate-50 dark:bg-slate-800 p-10 rounded-3xl">
-              <h3 className="text-2xl font-semibold mb-6 text-teal-600">Custom Software Development</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-navy-500">Custom Software Development</h3>
               <p className="text-slate-600 dark:text-slate-400 mb-8">
                 Full-stack application development tailored to your needs. From concept to production, I build secure, scalable, and maintainable systems.
               </p>
@@ -27,7 +27,7 @@ function Services() {
             </div>
 
             <div className="bg-slate-50 dark:bg-slate-800 p-10 rounded-3xl">
-              <h3 className="text-2xl font-semibold mb-6 text-teal-600">Legacy System Modernization</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-navy-500">Legacy System Modernization</h3>
               <p className="text-slate-600 dark:text-slate-400 mb-8">
                 Transform outdated systems into modern, supportable platforms while minimizing risk and downtime.
               </p>
@@ -40,7 +40,7 @@ function Services() {
             </div>
 
             <div className="bg-slate-50 dark:bg-slate-800 p-10 rounded-3xl">
-              <h3 className="text-2xl font-semibold mb-6 text-teal-600">Application Maintenance & Support</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-navy-500">Application Maintenance & Support</h3>
               <p className="text-slate-600 dark:text-slate-400 mb-8">
                 Ongoing support, enhancements, and troubleshooting for existing applications.
               </p>
@@ -53,7 +53,7 @@ function Services() {
             </div>
 
             <div className="bg-slate-50 dark:bg-slate-800 p-10 rounded-3xl">
-              <h3 className="text-2xl font-semibold mb-6 text-teal-600">AWS Cloud & Serverless Solutions</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-navy-500">AWS Cloud & Serverless Solutions</h3>
               <p className="text-slate-600 dark:text-slate-400 mb-8">
                 Cost-effective, scalable cloud-native architectures on AWS.
               </p>

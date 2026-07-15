@@ -19,11 +19,11 @@ function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <div className="flex flex-col gap-2">
-              <Link to="/" className="hover:text-teal-400 transition-colors">Home</Link>
-              <Link to="/about" className="hover:text-teal-400 transition-colors">About Us</Link>
-              <Link to="/services" className="hover:text-teal-400 transition-colors">Services</Link>
-              <Link to="/experience" className="hover:text-teal-400 transition-colors">Past Performance</Link>
-              <Link to="/contact" className="hover:text-teal-400 transition-colors">Contact</Link>
+              <Link to="/" className="hover:text-primary-500 transition-colors">Home</Link>
+              <Link to="/about" className="hover:text-primary-500 transition-colors">About Us</Link>
+              <Link to="/services" className="hover:text-primary-500 transition-colors">Services</Link>
+              <Link to="/experience" className="hover:text-primary-500 transition-colors">Past Performance</Link>
+              <Link to="/contact" className="hover:text-primary-500 transition-colors">Contact</Link>
             </div>
           </div>
 
@@ -32,15 +32,11 @@ function Footer() {
             <h4 className="text-white font-semibold mb-4">Get In Touch</h4>
             <p className="text-slate-400">
               Ready to discuss your project?<br />
-              <Link to="/contact" className="text-teal-400 hover:text-teal-300">Send us a message</Link>
+              <Link to="/contact" className="text-primary-500 hover:text-primary-300">Send us a message</Link>
             </p>
 
             <div className="mt-8 text-sm">
               <p>© {new Date().getFullYear()} Alafour LLC. All Rights Reserved.</p>
-              <div className="mt-2 flex gap-4">
-                <a href="https://www.linkedin.com/in/wendyparker09" target="_blank" className="hover:text-teal-400">LinkedIn</a>
-                {/* Add Privacy Policy or Terms later */}
-              </div>
             </div>
           </div>
         </div>
