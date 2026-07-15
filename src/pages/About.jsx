@@ -25,8 +25,8 @@ function About() {
             </p>
 
             <p className="font-medium text-teal-600">
-              Currently developing <strong>FaithFlow</strong> — an AI-powered full-stack application 
-              built with React, .NET, and Grok AI integration.
+              Currently developing <strong>RequestFlow</strong> — an AI-powered full-stack application 
+              built with React, .NET, and AI integration.
             </p>
           </div>
         </div>
