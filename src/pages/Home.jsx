@@ -19,7 +19,7 @@ function Home() {
             Reliable .NET • React • AWS Solutions
           </p>
 
-          <p className="text-xl max-w-2xl mx-auto text-accent-500 mb-12">
+          <p className="text-xl max-w-2xl mx-auto text-black mb-12">
             20+ Years Experience • Custom Development • Modernization • Maintenance
           </p>
 
