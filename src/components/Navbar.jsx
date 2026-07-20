@@ -24,11 +24,11 @@ function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-8 text-sm font-medium">
-            <Link to="/" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/') ? 'bg-primary-500 text-accent-500' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>Home</Link>
-            <Link to="/about" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/about') ? 'bg-primary-500 text-accent-500' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>About</Link>
-            <Link to="/services" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/services') ? 'bg-primary-500 text-accent-500' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>Services</Link>
-            <Link to="/experience" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/experience') ? 'bg-primary-500 text-accent-500' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>Experience</Link>
-            <Link to="/contact" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/contact') ? 'bg-primary-500 text-accent-500' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>Contact</Link>
+            <Link to="/" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/') ? 'bg-primary-500 text-white' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>Home</Link>
+            <Link to="/about" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/about') ? 'bg-primary-500 text-white' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>About</Link>
+            <Link to="/services" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/services') ? 'bg-primary-500 text-white' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>Services</Link>
+            <Link to="/experience" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/experience') ? 'bg-primary-500 text-white' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>Experience</Link>
+            <Link to="/contact" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/contact') ? 'bg-primary-500 text-white' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}>Contact</Link>
           </div>
 
           {/* Mobile Hamburger Button */}
