@@ -44,7 +44,7 @@ const ContactForm = () => {
      <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 text-left">
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+          <label className="block text-sm font-medium mb-2">
             Your Name
           </label>
           <input
@@ -57,7 +57,7 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+          <label className="block text-sm font-medium mb-2">
             Email Address
           </label>
           <input
@@ -77,7 +77,7 @@ const ContactForm = () => {
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+        <label className="block text-sm font-medium mb-2">
           Message
         </label>
         <textarea
@@ -95,7 +95,7 @@ const ContactForm = () => {
       <button
         type="submit"
         disabled={loading}
-        className="w-full bg-primary-600 hover:bg-primary-700 disabled:bg-slate-400 disabled:cursor-not-allowed transition py-4 rounded-2xl font-semibold text-lg mt-4 flex items-center justify-center text-white"
+        className="w-full bg-primary-500 disabled:bg-slate-400 disabled:cursor-not-allowed transition py-4 rounded-2xl font-semibold text-lg mt-4 flex items-center justify-center text-white"
       >
         {loading ? 'Sending Message...' : 'Send Message'}
       </button>

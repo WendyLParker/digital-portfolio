@@ -4,30 +4,40 @@ function About() {
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-6">
           
-          <h2 className="text-5xl font-bold text-center mb-12">About Alafour LLC</h2>
+          <h2 className="text-5xl font-bold font-heading text-center mb-12 text-gray-900 dark:text-white">
+  About Alafour LLC
+</h2>
 
           <div className="prose prose-lg max-w-3xl mx-auto text-gray-600 dark:text-gray-400 space-y-8">
+            
             <p>
-              Alafour LLC is a <strong>Woman-Owned Small Business</strong> founded in June 2026 by Wendy Parker.
-              With over 20 years of hands-on full-stack development experience, I specialize in delivering 
-              reliable, secure, and scalable software solutions for government and enterprise clients.
+              Alafour LLC is a <strong>Woman-Owned Small Business</strong> inspired by Huntsville, Alabama — where the owner grew up. 
+              Founded in June 2026 by Wendy Parker, Alafour delivers high-quality, reliable technology solutions with senior-level 
+              expertise and strong project ownership.
             </p>
 
             <p>
-              My background includes enterprise application development, system modernization, 
-              AWS serverless architectures, and large-scale data migrations.
+              With over 20 years of hands-on experience in enterprise and government environments, we specialize in solving complex 
+              technical challenges — from debugging and optimizing legacy systems to building secure, modern applications.
             </p>
 
             <p>
-              At Alafour LLC, I focus on custom software development, application maintenance, 
-              integrations, and modernization projects. I bring deep technical expertise combined 
-              with the personal accountability that comes from owning the business.
+              <strong>What sets us apart:</strong>
             </p>
 
-            <p className="font-medium text-primary-600">
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Deep expertise in identifying and resolving difficult code issues</li>
+              <li>Strong focus on system security and performance optimization</li>
+              <li>Proven government contracting experience</li>
+              <li>AWS AI Practitioner certification</li>
+              <li>Clear communication and commitment to long-term client success</li>
+            </ul>
+
+            <p className="font-medium text-primary-600 pt-4">
               Currently developing <strong>RequestFlow</strong> — an AI-powered full-stack application 
-              built with React, .NET, and AI integration.
+              built with modern technologies.
             </p>
+
           </div>
         </div>
       </section>

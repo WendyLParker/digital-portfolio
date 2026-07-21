@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* AlaFour Brand Theme */
 :root {
-  --primary: 138 23 43;      /* Deep Crimson #8a172b */
-  --accent: 242 196 0;       /* Alabama Gold #F2C400 */
-  --navy: 0 45 98;           /* Deep Navy #002D62 */
+  --font-heading: 'Playfair Display', serif;
+  --font-accent: 'Cinzel', serif;
+  --font-body: 'Roboto', sans-serif;
+  --primary: 138 23 43;
+  --accent: 217 176 54;
+  --navy: 28 44 94;
   --light-bg: 248 250 252;
   --dark-bg: 15 23 42;
 }
 
-body {
-  font-family: 'Inter', system-ui, sans-serif;
+/* Default Font */
+@layer base {
+  html {
+    font-family: 'Roboto', system-ui, sans-serif;
+  }
 }
 
 /* Smooth scrolling */
@@ -29,7 +37,7 @@ html {
   @apply border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 px-8 py-4 rounded-2xl font-semibold transition-all;
 }
 
-/* Card styling for professional/government feel */
+/* Card styling */
 .card {
   @apply bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300;
 }
@@ -37,8 +45,4 @@ html {
 /* Typography */
 h1, h2, h3 {
   @apply text-slate-900 dark:text-slate-100;
-}
-
-p {
-  @apply text-slate-600 dark:text-slate-400;
 }

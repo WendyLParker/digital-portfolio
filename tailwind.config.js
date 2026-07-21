@@ -16,6 +16,11 @@ export default {
         navy: {
           500: '#1c2c5e'
         },
+      },
+      fontFamily: {
+        heading: ['Playfair Display', 'serif'],
+        accent:  ['Cinzel', 'serif'],
+        sans:    ['Roboto', 'sans-serif'],
       }
     },
   },
