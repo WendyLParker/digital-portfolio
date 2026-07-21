@@ -5,35 +5,31 @@ function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center pt-20 text-white">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h1 className="text-6xl md:text-7xl font-bold mb-4 text-primary-500 tracking-tight">
-            Alafour LLC
-          </h1>
+      <section className="min-h-screen flex items-center pt-20 bg-navy-500">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <h1 className="text-6xl md:text-7xl font-bold font-heading mb-4 text-white tracking-tight">
+  Alafour LLC
+</h1>
 
-          <p className="text-navy-500 text-2xl md:text-3xl mb-3">
-            Woman-Owned Small Business
-          </p>
+<p className="text-3xl md:text-4xl font-semibold font-accent text-white mb-3">
+  Technology, Cloud, and AI Solutions
+</p>
 
-          <p className="text-3xl md:text-4xl font-semibold mb-8 text-navy-500">
-            Reliable .NET • React • AWS Solutions
-          </p>
-
-          <p className="text-xl max-w-2xl mx-auto text-black mb-12">
-            20+ Years Experience • Custom Development • Modernization • Maintenance
-          </p>
-
+<p className="text-xl md:text-2xl font-body text-white/90 mb-8">
+  Woman-Owned • 20+ Years Experience • AWS AI Certified
+</p>
+          <br></br>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/experience"
-              className="px-10 py-4 bg-primary-500 hover:bg-primary-600 rounded-2xl font-semibold text-lg transition-all"
+              className="px-10 py-4 bg-primary-500 hover:bg-primary-600 rounded-2xl font-semibold text-lg transition-all text-white"
             >
               View Our Work
             </Link>
             <Link
-  to="/contact"
-  className="px-10 py-4 border-2 border-primary-500 text-navy-500 hover:bg-primary-50 hover:text-primary-600 rounded-2xl font-semibold text-lg transition-all"
->
+              to="/contact"
+              className="px-10 py-4 bg-primary-500 hover:bg-primary-600 rounded-2xl font-semibold text-lg transition-all text-white"
+            >
               Get In Touch
             </Link>
           </div>
@@ -48,16 +44,18 @@ function Home() {
           </h2>
 
           <p className="text-xl leading-relaxed text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            With over 20 years of enterprise experience and a Woman-Owned Small Business structure,
-            I deliver reliable .NET, React, and AWS solutions with the attention to detail
-            and personal accountability that only comes from owning the work myself.
+           Alafour is a woman-owned small business with over 20 years of enterprise and government technology experience. We deliver reliable, high-quality solutions with the personal accountability and attention to detail that comes from senior leadership directly involved in every project.
+           <br></br><br></br>
+           AWS AI certified and experienced in modernizing complex systems, we focus on practical, long-term results — combining deep technical expertise with clear communication and full ownership of outcomes.
+
+
           </p>
 
           <Link
             to="/about"
             className="inline-block mt-10 text-primary-500 hover:text-primary-600 font-medium text-lg"
           >
-            Learn more about my background and approach →
+            Learn more about our background and approach →
           </Link>
         </div>
       </section>
