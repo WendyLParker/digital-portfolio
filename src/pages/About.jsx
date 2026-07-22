@@ -3,21 +3,21 @@ function About() {
     <div className="pt-20 bg-white dark:bg-gray-900 min-h-screen">
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-6">
-          
+
           <h2 className="text-5xl font-bold font-heading text-center mb-12 text-gray-900 dark:text-white">
-  About Alafour LLC
-</h2>
+            About AlaFour
+          </h2>
 
           <div className="prose prose-lg max-w-3xl mx-auto text-gray-600 dark:text-gray-400 space-y-8">
-            
+
             <p>
-              Alafour LLC is a <strong>Woman-Owned Small Business</strong> inspired by Huntsville, Alabama — where the owner grew up. 
-              Founded in June 2026 by Wendy Parker, Alafour delivers high-quality, reliable technology solutions with senior-level 
+              AlaFour is a <strong>Woman-Owned Small Business</strong> inspired by Huntsville, Alabama — where the owner grew up.
+              Founded in June 2026 by Wendy Parker, AlaFour delivers high-quality, reliable technology solutions with senior-level
               expertise and strong project ownership.
             </p>
 
             <p>
-              With over 20 years of hands-on experience in enterprise and government environments, we specialize in solving complex 
+              With over 20 years of hands-on experience in enterprise and government environments, we specialize in solving complex
               technical challenges — from debugging and optimizing legacy systems to building secure, modern applications.
             </p>
 
@@ -34,7 +34,7 @@ function About() {
             </ul>
 
             <p className="font-medium text-primary-600 pt-4">
-              Currently developing <strong>RequestFlow</strong> — an AI-powered full-stack application 
+              Currently developing <strong>RequestFlow</strong> — an AI-powered full-stack application
               built with modern technologies.
             </p>
 

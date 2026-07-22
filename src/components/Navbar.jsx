@@ -29,7 +29,7 @@ function Navbar() {
       <Link to="/about" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/about') ? 'border-2 border-primary-500 bg-white dark:text-slate-200' : 'bg-primary-500 text-white'}`}>About</Link>
       <Link to="/services" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/services') ? 'border-2 border-primary-500 bg-white dark:text-slate-200' : 'bg-primary-500 text-white'}`}>Services</Link>
       <Link to="/experience" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/experience') ? 'border-2 border-primary-500 bg-white dark:text-slate-200' : 'bg-primary-500 text-white'}`}>Experience</Link>
-      <Link to="/contact" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/contact') ? 'border-2 border-primary-500 bg-white dark:text-slate-200' : 'bg-primary-500 text-white'}`}>Contact</Link>
+      <Link to="/contact" className={`px-5 py-2 rounded-2xl transition-all ${isActive('/contact') ? 'border-2 border-primary-500 bg-white dark:text-slate-200' : 'bg-primary-500 text-white'}`}>Connect</Link>
     </div>
 
     {/* Mobile Hamburger */}
