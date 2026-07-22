@@ -17,7 +17,7 @@ export default {
           500: '#1c2c5e'
         },
         gray:{
-          500:'#d2d4d6'
+          500:'#6b7280'
         }
       },
       fontFamily: {
