@@ -16,6 +16,9 @@ export default {
         navy: {
           500: '#1c2c5e'
         },
+        gray:{
+          500:'#d2d4d6'
+        }
       },
       fontFamily: {
         heading: ['Playfair Display', 'serif'],

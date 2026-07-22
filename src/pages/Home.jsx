@@ -8,7 +8,7 @@ function Home() {
       <section className="min-h-screen flex items-center pt-20 bg-navy-500">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-6xl md:text-7xl font-bold font-heading mb-4 text-white tracking-tight">
-  Alafour LLC
+  AlaFour
 </h1>
 
 <p className="text-3xl md:text-4xl font-semibold font-accent text-white mb-3">
@@ -40,11 +40,11 @@ function Home() {
       <section className="py-20 bg-slate-50 dark:bg-slate-900">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6 text-slate-800 dark:text-slate-100">
-            Why Choose Alafour LLC?
+            Why Choose AlaFour?
           </h2>
 
           <p className="text-xl leading-relaxed text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-           Alafour is a woman-owned small business with over 20 years of enterprise and government technology experience. We deliver reliable, high-quality solutions with the personal accountability and attention to detail that comes from senior leadership directly involved in every project.
+           AlaFour is a woman-owned small business with over 20 years of enterprise and government technology experience. We deliver reliable, high-quality solutions with the personal accountability and attention to detail that comes from senior leadership directly involved in every project.
            <br></br><br></br>
            AWS AI certified and experienced in modernizing complex systems, we focus on practical, long-term results — combining deep technical expertise with clear communication and full ownership of outcomes.
 
